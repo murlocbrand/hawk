@@ -1,2 +1,2 @@
-hawk.exe: hawk.go
-	go build
+hawk: hawk.go
+	go build -o hawk
