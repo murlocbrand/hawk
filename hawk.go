@@ -40,11 +40,6 @@ func (t *Test) InEU() bool {
 		return true
 	}
 
-	// maybe no server specified ==> probably all servers
-	if !strings.Contains(summary, "server") {
-		return true
-	}
-
 	return false
 }
 
